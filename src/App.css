@@ -1,12 +1,17 @@
 body.overflow-hidden {
   overflow: hidden;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
 .App{
   width: 100%;
 }
 .heading{
   background-image: url('./images/bg.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 30vh;
   width: 100%;
@@ -19,7 +24,7 @@ h1{
   color: #fff;
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
-  font-size: 42px;
+  font-size: 44px;
 }
 h3{
   color: #fff;
